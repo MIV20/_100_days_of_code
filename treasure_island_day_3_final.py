@@ -30,20 +30,25 @@ print("Your mission is to find the treasure.")
 forest = input('You arrive at an intersection in a forest. You can go left or right. Type "left" or "right".').lower()
 print()
 if forest == "left":
-        dock = input('You made it to an opening with a lake that has an island in the middle. You can choose to "wait" for a boat to land at the dock or "swim" yourself. Type "wait" or "swim".').lower()
+        dock = input('You made it to an opening with a lake that has an island in the middle. '
+                     'You can choose to "wait" for a boat to land at the dock or "swim" yourself. '
+                     'Type "wait" or "swim".').lower()
         print()
         if dock == "wait":
 
-            door = input('Patience paid off! A boat arrived and brought you to the island. A house with three doors await; blue, red or yellow. Type "red", "blue" or "yellow"?').lower()
+            door = input('Patience paid off! A boat arrived and brought you to the island. '
+                         'A house with three doors await; blue, red or yellow. Type "red", "blue" or "yellow"?').lower()
             print()
             if door == "blue":
                 print("The door opens and you are greeted by a ninja looking for the same treasure. GAME OVER.")
                 exit()
             elif door == "yellow":
-                print("As the door opens the glistening of treasure overwhelms your eyes. There is enough treasure to make Jack Sparrow blush. YOU WIN!")
+                print("As the door opens the glistening of treasure overwhelms your eyes. "
+                      "There is enough treasure to make Jack Sparrow blush. YOU WIN!")
                 exit()
             else:
-                   print("The door opens to what looks like treasure, however it is only a mural. An explosion is heard and suddenly the house collapses on itself. GAME OVER. ")
+                print("The door opens to what looks like treasure, however it is only a mural. "
+                         "An explosion is heard and suddenly the house collapses on itself. GAME OVER. ")
         else:
             print("A bull shark has mistaken you for lunch. GAME OVER.")
             exit()
