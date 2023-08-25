@@ -1,16 +1,3 @@
-# import random
-#
-# random_integer = random.randint(1, 10)
-# print(random_integer)
-#
-# random_float = random.random() * 5
-# print(random_float)
-
-#Remember to use the random module
-#Hint: Remember to import the random module here at the top of the file. 🎲
-
-#Write the rest of your code below this line 👇
-
 import random
 
 def coin_flip():
